@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.use("/s",Router)
-const port = 5000;
+const port = 5441;
 app.listen(port, () => {
   console.log(`server is running at http://localhost:${port}`);
 });
